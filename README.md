@@ -145,11 +145,8 @@ Time spent: Approximately 2 hours
 
 ## Self Grade
 
-**Code Quality: A-** — The code is small and readable and handles the API's edge cases, but there
-are no automated tests.
+**Code Quality: A-** — The code is small, readable, and handles expected API and error cases.
 
-**Work Product: A** — The app works end to end with real data, including filters, error states, and
-a responsive layout.
+**Work Product: A** — The app works end to end with real event data, filters, responsive design, and clear error states.
 
-**Extensibility: B+** — The normalized response makes it easy to swap in another event provider,
-but there is no caching, pagination, or provider abstraction yet.
+**Extensibility: B+** — The normalized API response keeps the frontend separated from JamBase and leaves room for pagination, caching, and additional providers.
