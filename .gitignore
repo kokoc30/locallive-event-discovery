@@ -13,7 +13,3 @@ dist/
 
 # OS
 .DS_Store
-
-# Development-only material, not part of the submission
-AGENTS.md
-design-reference/
