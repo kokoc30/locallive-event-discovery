@@ -18,7 +18,7 @@ const FILTERS = [
 const ERRORS_BY_STATUS = {
   404: {
     title: "Location not found",
-    description: "Check the city or location and try again.",
+    description: "Check the city name and try again. Example: Miami, FL or Denver, CO.",
   },
   422: {
     title: "Enter a city or area",
@@ -213,7 +213,7 @@ export default function App() {
                     <input
                       id="location"
                       value={location}
-                      placeholder="City, state, or ZIP code"
+                      placeholder="City or city, state — e.g. San Francisco, CA"
                       onChange={(changeEvent) => setLocation(changeEvent.target.value)}
                     />
                   </div>
